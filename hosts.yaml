@@ -1,0 +1,10 @@
+all:
+  children:
+    ansible_clients:
+      hosts:
+        server1:
+        server2:
+        server3:
+    zabbix-server:
+      hosts:
+        server3:
